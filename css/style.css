@@ -1,0 +1,32 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Share Tech Mono", monospace;
+  line-height: 1.4;
+}
+
+/* container wrapper */
+#container {
+  display: grid;
+  grid-template-columns: auto 500px auto;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}
+/* content wrapper */
+#content {
+  grid-column: 2 / 3;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+label {
+  font-size: 0.75rem;
+}
