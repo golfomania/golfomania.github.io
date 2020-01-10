@@ -32,7 +32,7 @@
         <div id="new_task">
           <form id="form">
             <div class="input-field col s6">
-              <i class="material-icons prefix">add</i>
+              <i class="material-icons prefix" id="new_task_add">add</i>
               <input id="icon_prefix" type="text" />
               <label for="icon_prefix">new task</label>
             </div>
@@ -40,21 +40,12 @@
         </div>
         <!-- task list -->
         <div id="task_list">
-          <ul>
-            <li class="card black white-text valign-wrapper">
-              test this task
-              <i class="material-icons white-text">clear</i>
-            </li>
-            <li class="card black white-text valign-wrapper">
-              another one
-              <i class="material-icons white-text">clear</i>
-            </li>
-          </ul>
+          <ul></ul>
         </div>
         <!-- delete all -->
         <div id="delete_all" class="center-align">
           <p>delete all</p>
-          <a href="#">
+          <a href="#" id="btn_delete_all">
             <i class="material-icons black-text">delete</i>
           </a>
         </div>
